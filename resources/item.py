@@ -2,7 +2,7 @@ import uuid
 from flask import request
 from flask.views import MethodView
 from flask_smorest import Blueprint, abort
-from schemas import ItemSchema,ItemUpdateSchema
+from schemas import ItemSchema,ItemUpdateSchema,TagAndItemSchema
 from models import ItemModel
 from db import db
 from sqlalchemy.exc import SQLAlchemyError
